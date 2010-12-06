@@ -5,23 +5,18 @@
   description="Android Enthusiasts profile flair. With this widget, you can display your Android Enthusiast profile flair, as seen on http://android.stackexchange.com/users/flair. You can find information, ask for help on my blog : http://blog.stackr.fr/2010/10/widget-igoogle-android-enthusiasts/."
   height="90" width="190" scaling="false"  author_location="Lyon" 
   thumbnail="http://dl.dropbox.com/u/3505759/gmodules/mini.PNG"
-  screenshot="http://dl.dropbox.com/u/3505759/gmodules/fullscreen.PNG"
+  screenshot="http://dl.dropbox.com/u/3505759/gmodules/fullscreen.PNG" 
   />
   <UserPref name="account_number" display_name="Enter your account id" default_value="412" datatype="string" />
   
   <Content type="html">
     <![CDATA[
-  <div id="place"></div>
+  <div id="place"><a href="http://stackexchange.com"><img src="http://stackexchange.com/users/flair/c5f1ec7895ea4f3c8451c1b3ae9c05dc.png" width="208" height="58" /></a></div>
     <script type="text/javascript">
       var prefs=new gadgets.Prefs();
       var aid=prefs.getString("account_number");
       var place=document.getElementById("place");
-      
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "http://android.stackexchange.com/users/flair/"+aid+".js?theme=default";
-      place.appendChild(script);	      
-    </script> 
+          </script> 
     ]]>
   </Content>
 </Module>
