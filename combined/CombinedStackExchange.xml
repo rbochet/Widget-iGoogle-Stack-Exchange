@@ -4,8 +4,8 @@
   author="Romain Bochet" author_email="rom.bochet@gmail.com"
   description="Combined profile flair on Stack Exchange. With this widget, you can display your Stack Exchange profiles flair (> 200), as seen on your flair page (ex : http://stackoverflow.com/users/flair, copy the combined Stack Exchange flair) . You can find information, ask for help on my blog : http://blog.stackr.fr/. This widget is open source ; you can check it out at http://github.com/rbochet/Widget-iGoogle-Stack-Exchange"
   height="90" width="190" scaling="false"  author_location="Lyon" 
-  thumbnail="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/tree/master/combined/small.png"
-  screenshot="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/tree/master/combined/big.png" 
+  thumbnail="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/raw/master/combined/small.png"
+  screenshot="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/raw/master/combined/big.png" 
   />
   <UserPref name="account_number" display_name="Enter your combined account id (hex number)" default_value="c5f1ec7895ea4f3c8451c1b3ae9c05dc" datatype="string" />
   
