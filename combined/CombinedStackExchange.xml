@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Android Enthusiasts on Stack Exchange" 
+  <ModulePrefs title="Combined Profile on Stack Exchange" 
   author="Romain Bochet" author_email="rom.bochet@gmail.com"
-  description="Android Enthusiasts profile flair. With this widget, you can display your Android Enthusiast profile flair, as seen on http://android.stackexchange.com/users/flair. You can find information, ask for help on my blog : http://blog.stackr.fr/2010/10/widget-igoogle-android-enthusiasts/."
+  description="Combined profile flair on Stack Exchange. With this widget, you can display your Stack Exchange profiles flair (> 200), as seen on your flair page (ex : http://stackoverflow.com/users/flair, copy the combined Stack Exchange flair) . You can find information, ask for help on my blog : http://blog.stackr.fr/. This widget is open source ; you can check it out at http://github.com/rbochet/Widget-iGoogle-Stack-Exchange"
   height="90" width="190" scaling="false"  author_location="Lyon" 
-  thumbnail="http://dl.dropbox.com/u/3505759/gmodules/mini.PNG"
-  screenshot="http://dl.dropbox.com/u/3505759/gmodules/fullscreen.PNG" 
+  thumbnail="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/tree/master/combined/small.png"
+  screenshot="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/tree/master/combined/big.png" 
   />
-  <UserPref name="account_number" display_name="Enter your account id" default_value="412" datatype="string" />
+  <UserPref name="account_number" display_name="Enter your combined account id (hex number)" default_value="c5f1ec7895ea4f3c8451c1b3ae9c05dc" datatype="string" />
   
   <Content type="html">
     <![CDATA[
-  <div id="place"><a href="http://stackexchange.com"><img src="http://stackexchange.com/users/flair/c5f1ec7895ea4f3c8451c1b3ae9c05dc.png" width="208" height="58" /></a></div>
-    <script type="text/javascript">
+  <div id="place">
+  <script type="text/javascript">
       var prefs=new gadgets.Prefs();
       var aid=prefs.getString("account_number");
-      var place=document.getElementById("place");
-          </script> 
+      document.write("<a href=\"http://stackexchange.com\" target="_blank"><img src=\"http://stackexchange.com/users/flair/"+aid+".png\" width=\"208\" height=\"58\" /></a>");
+     </script> 
     ]]>
   </Content>
 </Module>
