@@ -2,7 +2,7 @@
 <Module>
   <ModulePrefs title="Combined Profile on Stack Exchange" 
   author="Romain Bochet" author_email="rom.bochet@gmail.com"
-  description="Combined profile flair on Stack Exchange. With this widget, you can display your Stack Exchange profiles flair (> 200), as seen on your flair page (ex : http://stackoverflow.com/users/flair, copy the combined Stack Exchange flair) . You can find information, ask for help on my blog : http://blog.stackr.fr/. This widget is open source ; you can check it out at http://github.com/rbochet/Widget-iGoogle-Stack-Exchange"
+  description="Combined profile flair on Stack Exchange. With this widget, you can display your Stack Exchange profiles flair (> 200), as seen on your flair page (ex : http://stackoverflow.com/users/flair, copy the combined Stack Exchange flair) . You can find information, ask for help on my blog : http://blog.stackr.fr/. This widget is open source ; you can check it out at http://github.com/rbochet/Widget-iGoogle-Stack-Exchange. Keywords : stack exchange, stack overflow, android enthusiasts, area 51, super user, server fault, meta, ubuntu, mathematics, on startups"
   height="90" width="190" scaling="false"  author_location="Lyon" 
   thumbnail="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/raw/master/combined/small.png"
   screenshot="http://github.com/rbochet/Widget-iGoogle-Stack-Exchange/raw/master/combined/big.png" 
